@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RSP Kailali-4 Temple</title>
+<style>
+body {margin:0; font-family: Arial, sans-serif; background:#f2f2f2;}
+header {background:#8B0000; color:white; text-align:center; padding:20px;}
+header h1 {margin:0; font-size:2rem;}
+nav {text-align:center; background:#B22222; padding:10px;}
+nav a {color:white; margin:0 10px; text-decoration:none; font-weight:bold;}
+nav a:hover {text-decoration:underline;}
+section {padding:20px;}
+.hero {text-align:center; padding:20px;}
+.hero img {max-width:300px; border-radius:10px; margin-bottom:15px;}
+.card {background:white; padding:15px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+footer {background:#8B0000; color:white; text-align:center; padding:15px;}
+.btn {background:#FF4500; color:white; padding:10px 20px; border:none; border-radius:5px; text-decoration:none;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>RSP Kailali-4 Temple</h1>
+<p>धार्मिक आस्था र संस्कृति समर्पित</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+<img src="assets/images/temple.jpg" alt="Temple Image">
+<h2>Welcome to Our Temple</h2>
+<p>आस्था, शान्ति, र सांस्कृतिक एकता को प्रतीक</p>
+<a href="#contact" class="btn">Contact Us</a>
+</section>
+
+<section id="about">
+<div class="card">
+<h3>About the Temple</h3>
+<p>यो मन्दिर हाम्रो समाजको धार्मिक र सांस्कृतिक केन्द्र हो। यहाँ पूजा, उत्सव, र सामाजिक कार्यक्रमहरू सञ्चालन हुन्छन्।</p>
+</div>
+</section>
+
+<section id="gallery">
+<div class="card">
+<h3>Temple Gallery</h3>
+<img src="assets/images/photo1.jpg" alt="Photo1" style="width:100%;border-radius:10px;margin-bottom:10px;">
+<img src="assets/images/photo2.jpg" alt="Photo2" style="width:100%;border-radius:10px;">
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+<h3>Contact Information</h3>
+<p>Address: Pahad Road, Attariya, Kailali</p>
+<p>Phone: 091-551382</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 RSP Kailali-4 Temple | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
